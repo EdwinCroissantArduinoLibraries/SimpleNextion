@@ -10,7 +10,7 @@ To make this as simple as possible there is a strict seperation between the Ardu
 The Arduino can only set variables and recieve only Id-Value pairs.
 
 ##Requirements:
-* The variables must situated on a page called var.
+* The variables must situated on a page called var and must be global.
 
 * Only variables with a name like var# (# is a value between 0 and 254) can be set.
 
