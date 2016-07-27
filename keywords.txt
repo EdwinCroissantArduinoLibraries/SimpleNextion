@@ -1,0 +1,25 @@
+#######################################
+# Syntax Coloring Map For SimpleNextion
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SimpleNextion			KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin					KEYWORD2
+setInt					KEYWORD2
+setTxt					KEYWORD2
+update					KEYWORD2
+listen					KEYWORD2
+callbackInt				KEYWORD2
+callbackTxt				KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
