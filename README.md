@@ -31,11 +31,12 @@ The Arduino can only set variables and recieve only Id-Value pairs.
     ``` 
 
   * For text values:
-
+    ```
     printh "T"
     printh <commandID> // (00-FF) 
     print <text>
     printh 00
+    ```
 
 
 ##Usage
