@@ -48,7 +48,11 @@ bool SimpleNextion::begin(uint32_t baud) {
 	 * from the Nextion.
 	 */
 	_serial->begin(_baud);
-	if (_ping()) return true; // We are ready to go.
+	if (_ping()){
+		_serial->print(F("page 0")); // set the device at the start screen
+		_tripple0xFF();
+		return true; // We are ready to go.
+	}
 	/*
 	 * No response so we check at the default baud rate
 	 */
